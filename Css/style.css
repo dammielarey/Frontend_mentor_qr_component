@@ -1,0 +1,53 @@
+
+html {
+	background-color: hsl(212,45%,89%);
+}
+
+.qr-container {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 230px;
+	height: 380px;
+	border-radius: 15px;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+}
+
+.image {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	width: 210px;
+	height: 210px;
+    border-radius: 15px;
+	transform: translate(-50%, 5%);
+}
+
+
+.text {
+    position: relative;
+    padding: 25px 10px 7px;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+}
+
+.text-t {
+    position: relative;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.text-t p {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+.text p {
+    margin: 0;
+}
